@@ -1,0 +1,69 @@
+body{
+  font-family: arial;
+  color: white;
+  background-color: rgb(72, 86, 129);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.instructionBox{
+  display: block;
+  background-color: burlywood;
+  color: rgb(94, 46, 139);
+  border-radius: 5px;
+  font-weight: 700;
+  height: auto;
+  width: 400px;
+  font-size: 20px;
+  border: 10px solid white;
+  padding: 20px 30px 40px 20px;
+  margin: 40px 0 0 0 ;
+}
+
+.btnBox{
+  display: block;
+  padding: 10px;
+  border: 10px solid white;
+  margin: 20px 20px 20px 0;
+  border-radius: 5px;
+  color: red;
+  background-color: rgb(23, 31, 104);
+  width: 400px;
+  padding: 20px 30px 20px 20px;
+  justify-content: center;
+  justify-items: end;
+}
+
+.btn{
+  color: rgb(94, 46, 139);
+  font-weight: bolder;
+  font-size: larger;
+  width: 100px;
+  border-radius: 10px;
+  border: 5px solid green;
+}
+.btn:hover{
+  color: green;
+  cursor: pointer;
+}
+
+.zoneTitle{
+  font-size: 15px;
+  text-decoration: underline ;
+  
+}
+
+.resultsZone{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: auto;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 0 0 20px 0;
+}
+

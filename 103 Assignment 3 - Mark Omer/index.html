@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header class="hdr">
+      <h1>Simple JS Calculator</h1>
+  </header>
+
+  <main>
+
+    <hr>
+
+    <div class="instructionBox">
+      <p>Instructions:</p>
+      <ol>
+        <li>Click the button to start the program!</li>
+        <li>Add the first number into the prompt.</li>
+        <li>Add the second number into the prompt.</li>
+        <li>The program will display the results of the four operations ( + - * / ) in the rusults zone.</li>
+
+      </ol>
+    </div>
+
+    <div class="btnBox">
+      <button class="btn" onclick="calculate();">START</button>
+    </div>
+
+    <div class="resultsZone">
+      <span class="zoneTitle"><h2>Results Zone</h2></span>
+    
+      <div id="results"></div>
+    </div>
+
+    <hr>
+
+  </main>
+  <footer>
+    <p>All copyrights resered &copy; 2022 Mark Omer</p>
+  </footer>
+  <script src=calculator.js></script>
+</body>
+</html>
